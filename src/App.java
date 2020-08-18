@@ -8,7 +8,7 @@ public class App {
                 if (randomNo == 0) {
                     throw new Exception("Der Wert darf nicht 0 sein");
                 }
-            }1
+            }
         } catch (Exception e) {
            System.out.println(e.getMessage());
         }
